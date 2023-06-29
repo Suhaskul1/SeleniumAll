@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="1" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-28T10:46:58 IST" name="Default suite" finished-at="2023-06-28T10:47:32 IST" duration-ms="34220">
+  <suite started-at="2023-06-28T11:43:33 IST" name="Default suite" finished-at="2023-06-28T11:44:19 IST" duration-ms="46858">
     <groups>
     </groups>
-    <test started-at="2023-06-28T10:46:58 IST" name="Default test" finished-at="2023-06-28T10:47:32 IST" duration-ms="34220">
+    <test started-at="2023-06-28T11:43:33 IST" name="Default test" finished-at="2023-06-28T11:44:19 IST" duration-ms="46858">
       <class name="PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T10:46:58 IST" name="openBrowser" finished-at="2023-06-28T10:47:09 IST" duration-ms="10675" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T11:43:33 IST" name="openBrowser" finished-at="2023-06-28T11:43:51 IST" duration-ms="17893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T10:47:09 IST" name="loginToApp" finished-at="2023-06-28T10:47:16 IST" duration-ms="7344" status="PASS">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T11:43:51 IST" name="loginToApp" finished-at="2023-06-28T11:43:59 IST" duration-ms="8356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method signature="verifyFullName()[pri:1, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T10:47:16 IST" name="verifyFullName" finished-at="2023-06-28T10:47:28 IST" duration-ms="11641" status="PASS">
+        <test-method signature="verifyFullName()[pri:1, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T11:43:59 IST" name="verifyFullName" finished-at="2023-06-28T11:44:12 IST" duration-ms="12988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFullName -->
-        <test-method is-config="true" signature="logOutToApp(org.testng.ITestResult)[pri:0, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T10:47:28 IST" name="logOutToApp" finished-at="2023-06-28T10:47:30 IST" duration-ms="1955" status="PASS">
+        <test-method is-config="true" signature="logOutToApp(org.testng.ITestResult)[pri:0, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T11:44:12 IST" name="logOutToApp" finished-at="2023-06-28T11:44:15 IST" duration-ms="3327" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutToApp -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T10:47:30 IST" name="loginToApp" finished-at="2023-06-28T10:47:32 IST" duration-ms="2468" status="FAIL">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T11:44:15 IST" name="loginToApp" finished-at="2023-06-28T11:44:19 IST" duration-ms="4136" status="FAIL">
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
               <![CDATA[stale element reference: stale element not found
@@ -39,10 +39,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'b19b418e60'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a82b799e3133c0416afb0b17bc9f959, clickElement {id=52F67EA02489C98F59D4A0448602B077_element_92}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59613/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (7a82b799e3133c0416afb0b17bc9f959)] -> xpath: //a[text()='Sign in']]
-Session ID: 7a82b799e3133c0416afb0b17bc9f959]]>
+Command: [7701e98f85aa12b9a3629cdd8bb64f7a, clickElement {id=7E8C8221C00CC3CB47829A46D24F2BB5_element_105}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60643}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60643/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7701e98f85aa12b9a3629cdd8bb64f7a)] -> xpath: //a[text()='Sign in']]
+Session ID: 7701e98f85aa12b9a3629cdd8bb64f7a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
@@ -51,10 +51,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'b19b418e60'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a82b799e3133c0416afb0b17bc9f959, clickElement {id=52F67EA02489C98F59D4A0448602B077_element_92}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59613/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (7a82b799e3133c0416afb0b17bc9f959)] -> xpath: //a[text()='Sign in']]
-Session ID: 7a82b799e3133c0416afb0b17bc9f959
+Command: [7701e98f85aa12b9a3629cdd8bb64f7a, clickElement {id=7E8C8221C00CC3CB47829A46D24F2BB5_element_105}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60643}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60643/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7701e98f85aa12b9a3629cdd8bb64f7a)] -> xpath: //a[text()='Sign in']]
+Session ID: 7701e98f85aa12b9a3629cdd8bb64f7a
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -109,7 +109,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method signature="verifyEmail()[pri:2, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T10:47:32 IST" name="verifyEmail" finished-at="2023-06-28T10:47:32 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyEmail()[pri:2, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T11:44:19 IST" name="verifyEmail" finished-at="2023-06-28T11:44:19 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
               <![CDATA[stale element reference: stale element not found
@@ -118,10 +118,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'b19b418e60'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a82b799e3133c0416afb0b17bc9f959, clickElement {id=52F67EA02489C98F59D4A0448602B077_element_92}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59613/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (7a82b799e3133c0416afb0b17bc9f959)] -> xpath: //a[text()='Sign in']]
-Session ID: 7a82b799e3133c0416afb0b17bc9f959]]>
+Command: [7701e98f85aa12b9a3629cdd8bb64f7a, clickElement {id=7E8C8221C00CC3CB47829A46D24F2BB5_element_105}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60643}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60643/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7701e98f85aa12b9a3629cdd8bb64f7a)] -> xpath: //a[text()='Sign in']]
+Session ID: 7701e98f85aa12b9a3629cdd8bb64f7a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
@@ -130,10 +130,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.3', revision: 'b19b418e60'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7a82b799e3133c0416afb0b17bc9f959, clickElement {id=52F67EA02489C98F59D4A0448602B077_element_92}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59613/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (7a82b799e3133c0416afb0b17bc9f959)] -> xpath: //a[text()='Sign in']]
-Session ID: 7a82b799e3133c0416afb0b17bc9f959
+Command: [7701e98f85aa12b9a3629cdd8bb64f7a, clickElement {id=7E8C8221C00CC3CB47829A46D24F2BB5_element_105}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60643}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60643/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7701e98f85aa12b9a3629cdd8bb64f7a)] -> xpath: //a[text()='Sign in']]
+Session ID: 7701e98f85aa12b9a3629cdd8bb64f7a
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -188,11 +188,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmail -->
-        <test-method is-config="true" signature="logOutToApp(org.testng.ITestResult)[pri:0, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T10:47:32 IST" name="logOutToApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687929452555" status="SKIP">
+        <test-method is-config="true" signature="logOutToApp(org.testng.ITestResult)[pri:0, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T11:44:19 IST" name="logOutToApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687932859931" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutToApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T10:47:32 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687929452559" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:PolicyBPOMTestNgBaseClassUtilitiy.PolicyBPOMMainTestPage1@4f18837a]" started-at="2023-06-28T11:44:19 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687932859937" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
