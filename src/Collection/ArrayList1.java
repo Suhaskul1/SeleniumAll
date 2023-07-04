@@ -1,6 +1,10 @@
 package Collection;
 
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.ListIterator;
+
+
 
 public class ArrayList1 {
 
@@ -25,5 +29,38 @@ public class ArrayList1 {
 		System.out.println(al.remove(2));
 		
 		System.out.println(al);
+		System.out.println();
+		System.out.println("Using iterator");
+		
+		Iterator itr = al.iterator();
+		
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
+		
+		System.out.println("using for loop");
+		for(int i=0; i<=al.size()-1; i++)
+		{
+			System.out.println(al.get(i));
+		}
+		
+		System.out.println();
+		System.out.println("Print data using list iterator");
+		
+		ListIterator litr = al.listIterator();
+		
+		while(litr.hasNext())
+		{
+			System.out.println(litr.next());
+		}
+		
+		System.out.println();
+		System.out.println("For each loop");
+		
+		for(Object s1: al)
+		{
+			System.out.println(s1);
+		}
 	}
 }
